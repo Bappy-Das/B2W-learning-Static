@@ -1,0 +1,279 @@
+/* COLOUR REFERENCES
+
+Green:		#79b044
+Salmon:		#dd5638
+Blue Gray:  #3e4249
+
+*/
+
+/* ==== GENERAL ==== */
+
+body {
+	margin-top: 50px;
+	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+	font-size: 16px;
+	background: url('../img/tile.jpg') top left repeat;
+}
+/*========Global=========*/
+h1,h2,h3,h4,h5,h6{
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-weight: bold;
+}
+h1{
+	font-size: 3em;
+}
+h1,h2{
+	margin: 0 0 30px;
+}
+h3{
+	margin: 20px 0;
+}
+h4{
+	font-size: 18px;
+}
+button, input, .btn, a.btn{
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	color: white;
+}
+.btn {
+	font-weight: bold;
+}
+.btn-danger{
+	background-color: #dd5638;
+	border-collapse: #d95131;
+}
+img{
+	max-width: 100%;
+}
+
+
+
+/*========Hero=========*/
+#hero {
+	background: url("../img/hero-bg.jpg") 50% 0 repeat fixed;
+	min-height: 500px;
+	padding: 40px 0;
+	color: white ;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;	
+}
+#hero article{
+	width: 100%;
+	text-align: center; 
+}
+#hero .hero-text{
+	margin-top: 30px;
+}
+#price-timeline{
+	margin: 30px 0 60px;
+	text-align: center;
+}
+#price-timeline .price{
+	display: inline-block;
+	margin: 0 2% 0 0;
+	width: 30%;
+	background:#3e4249;
+	padding: 10px 20px 30px;
+	position: relative;
+	vertical-align: top;
+
+}
+#price-timeline .price.active{
+	background: #dd5638;
+}
+#price-timeline .price span{
+	background: #101010;
+	display: block;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+	font-size: 24px;
+	border-radius: 100%;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;	
+	position: absolute;
+	bottom: -35px;
+	left: 50%;
+	margin-left: -35px;	
+}
+#price-timeline h4{
+	margin: 0 0 10px;
+}
+#price-timeline h4 small{
+	color: white;
+	font-weight: bold;
+	display: block;
+}
+
+/*==================optin===========*/
+#optin{
+	background: #3e4249;
+	padding: 20px 0;
+	color: white;
+	-webkit-font-smoothing:antialiased;
+	text-rendering: optimizeLegibility;
+	font-size: 1.2em;
+}
+#optin p{
+	margin: 7px 0 0 0;
+}
+
+/*==================Boost-income===========*/
+section{
+	padding: 60px;
+}
+.section-header{
+	text-align: center;
+
+}
+section h2{
+	margin: 20px 0 40px;
+}
+section h3{
+	margin: 30px 0 10px;
+}
+/*================who-benifits=====================*/
+#who-benifits{
+	background: white;
+}
+
+/*=========course-feature=========================*/
+#course-feature {
+	background: #3e4249;
+	color: white;
+	text-align: center;
+}
+#course-feature h4{
+	margin-top: 20px;
+}
+
+
+/*=====Custom Icon=====*/
+
+i.fas {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	font-size:36px
+	
+}
+
+/*=================project-features============*/
+#project-features{
+	text-align: center;
+}
+
+/*==========instructor===========*/
+#instructor{
+	background: white;
+}
+.instructor-cnt{
+	background: white url('../img/bappy.png') 95% -10px no-repeat;
+
+}
+#instructor .section-header h2 i .fab{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	font-size:20px
+	background: url('../img/icon-sprite.png') no-repeat;
+}
+
+.badge.social {
+	background: #ccc;
+	font-size: 24px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 42px;
+	margin: 0 5px 20px 0;
+	padding: 0;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	
+	color: white;
+}
+
+.badge.social.twitter:hover {
+	background: #55acee;
+}
+
+.badge.social.facebook:hover {
+	background: #3b5998;
+}
+
+.badge.social.github:hover {
+	background: #212529;
+}
+.badge.social.linkedin:hover {
+	background: #0174B5;
+}
+.badge.social.instragram:hover {
+	background: #BE4BDB;
+}
+.badge.social.snapchat:hover {
+	background: #FEFA31;
+}
+.badge.social.skype:hover {
+	background: #00ADF1;
+}
+
+#instructor .section-header h2{
+	margin: 0 0 5px;
+	color: #66A3C6;
+}
+#instructor .section-header h3{
+	margin: 0 0 5px;
+}
+.instructor-cnt{
+	margin-top: 50px;
+}
+#instructor .num {
+	display: table;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	line-height: 25px;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	background: #dd5638;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	margin-right: 60px;
+}
+#instructor .num .num-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.social i.fab {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	font-size:26px
+}
+
+/*================foooter===============*/
+#footer{
+	background: #00001a;
+	padding: 5px;
+}
+ ul li{
+ 	margin-left: 20px;
+ 	font-weight: bold;
+
+ }
+ ul li a:hover{
+ 	text-decoration: none;
+ }
+ .pull-right{
+ 	color: white;
+ }
